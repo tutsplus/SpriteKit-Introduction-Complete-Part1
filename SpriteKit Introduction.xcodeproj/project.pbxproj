@@ -12,6 +12,7 @@
 		603419311CB8D1D700B21889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6034192F1CB8D1D700B21889 /* Main.storyboard */; };
 		603419331CB8D1D700B21889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603419321CB8D1D700B21889 /* Assets.xcassets */; };
 		603419361CB8D1D700B21889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603419341CB8D1D700B21889 /* LaunchScreen.storyboard */; };
+		60E34D7A1CBA1AFE00A51665 /* MainScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 60E34D791CBA1AFE00A51665 /* MainScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		603419321CB8D1D700B21889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		603419351CB8D1D700B21889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		603419371CB8D1D700B21889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60E34D791CBA1AFE00A51665 /* MainScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				6034192B1CB8D1D700B21889 /* AppDelegate.swift */,
 				6034192D1CB8D1D700B21889 /* ViewController.swift */,
+				60E34D791CBA1AFE00A51665 /* MainScene.sks */,
 				6034192F1CB8D1D700B21889 /* Main.storyboard */,
 				603419321CB8D1D700B21889 /* Assets.xcassets */,
 				603419341CB8D1D700B21889 /* LaunchScreen.storyboard */,
@@ -125,6 +128,7 @@
 				603419361CB8D1D700B21889 /* LaunchScreen.storyboard in Resources */,
 				603419331CB8D1D700B21889 /* Assets.xcassets in Resources */,
 				603419311CB8D1D700B21889 /* Main.storyboard in Resources */,
+				60E34D7A1CBA1AFE00A51665 /* MainScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +292,7 @@
 				6034193C1CB8D1D700B21889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SpriteKit
 
 enum ButtonDirection: Int {
     case Left = 0, Right = 1
@@ -16,7 +17,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let skView = SKView(frame: self.view.frame)
+        let scene = SKScene(fileNamed: "MainScene")
+        skView.presentScene(scene)
+        self.view.addSubview(skView)
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,6 +32,6 @@ class ViewController: UIViewController {
     @IBAction func didPressButton(sender: UIButton) {
         
     }
-    
+
 }
 
