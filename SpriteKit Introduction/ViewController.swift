@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         let skView = SKView(frame: self.view.frame)
         let scene = SKScene(fileNamed: "MainScene")
         skView.presentScene(scene)
-        self.view.addSubview(skView)
+        view.addSubview(skView)
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,4 +34,3 @@ class ViewController: UIViewController {
     }
 
 }
-
